@@ -1,0 +1,17 @@
+2 folders are matter of concern
+
+1. public
+    (*)index.html -> starting point of the project, yhi single page load hota hai aur ek he page hota hai, thats why it is call SPA(Single Page Application).
+
+    menifest.json -> configuration setting(meta data) for serving website to mobile device or desktop.
+
+    <noscript> </noscript> tag show warning when java script is not enable in the browser.
+2. src
+    ->index.js(main.jsx) -> 
+    #ReactDOM is implementation of react in web
+
+    -> ReactDO M creates khudka dom(virtual dom) which checks difference in actual dom and make changes according to that. 
+
+    exported function must be in Capital Case.
+
+    only one element can be returned. so wrap it in <> </> 

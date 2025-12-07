@@ -1,0 +1,46 @@
+Core Library- React
+
+If you want to work with-
+-> website -> react-dom
+-> mobile app -> react-native
+
+
+npm vs npx
+
+npm(node package manager) -> for installing dependencies in react
+
+npx (node package executer) -> for executing dependencies without installation.
+
+1. command to create react app.
+-> npx create-react-app <app-name> 
+   
+   - bhut slow hai, aur bht bulky hai, faltu ke buddles bhi install krke deta hai isliye slow hai.
+
+package.json -> file having project information and dependencies.
+
+main libraries -> react ,react-dom, react-scripts, web-vitals(performance tracking)
+
+scripts-> Run the project.
+    start-> run the project
+    build -> production time me helpful hai
+    test -> testing perpose
+    eject -> getting out from the react mtlb itna he kaam hai react se ab dusre pr kaam krunga.
+etc.... 
+
+2. Command to run the project.
+-> phle dekhenege ki hm package.json wale folder me hai ya nhi. aur agr hai to run the below command
+
+$ npm run start
+
+If we run $ npm run build then sara ka sara code html, css, js me convert ho jata hai or ek folder bn jata hai production ke liye.
+ 
+
+# Create react project by using vite
+
+1. $ create vite@latest
+- we get the option to setup the project name,  library name etc.
+
+2. install node packages so navigate to the project then run
+$ npm install 
+
+3. Run app. $ npm run dev

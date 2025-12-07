@@ -37,7 +37,7 @@ If we run $ npm run build then sara ka sara code html, css, js me convert ho jat
 
 # Create react project by using vite
 
-1. $ create vite@latest
+1. $ npm create vite@latest
 - we get the option to setup the project name,  library name etc.
 
 2. install node packages so navigate to the project then run
